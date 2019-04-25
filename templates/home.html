@@ -66,12 +66,10 @@
   <!-- Dette er et bilde. Vi kan legge inn bilder vi har på serveren (datamaskinen), eller bilder som finnes på internett. 
     For bilder fra internett trenger vi linken til bildet. Denne finner man ved å høyreklikke på et bilde og velge: "kopier bildeadresse"
   -->
-  <div class=wrapper>
+  <div style="text-align: center">
     <img
       src="https://www.plan-norge.no/sites/default/files/styles/1000xvariable/public/Bli%20Plan-fadder/Fadderbarn_fra_Togo_skriver_brev_1000px.jpg"
       id="imgClickAndChange">
-
-    <script type=" text/javascript" src="{{ url_for('static', filename='logikk.js') }}"></script>
     <button onclick="changeImage()">Skift bilde</button>
   </div>
 
@@ -79,5 +77,6 @@
     Laget av Girls in Tech
   </footer>
 </body>
+<script type=" text/javascript" src="{{ url_for('static', filename='logikk.js') }}"></script>
 
 </html>
