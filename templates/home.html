@@ -1,0 +1,73 @@
+<!--Dette er HTML-dokumentet. Det er her vi skriver inn innholdet på nettsiden vår. HTML er et "språk" som gjør at nettleseren vår forstår 
+    hvordan de ulike "elementene" i nettsiden vår skal settes sammen. 
+    
+    Alt innhold i et html-dokument må være inne i "tagger" Det er disse som
+    forteller nettlesern hva slags element vi ser på. En tag har alltid en begynnelse <> og en slutt </> 
+-->
+
+<!doctype html>
+
+<head>
+  <title>En enkel nettside</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<html>
+
+
+
+<!-- I "kroppen" til nettsiden kan vi plassere ulikt innhold. I denne enkle nettsiden har vi plassert et overskrift, en navigasjonsfane,
+   litt tekst, en liste og et bilde -->
+
+<body>
+
+  <!--Dette er her vi skriver inn tittelen på siden vår.-->
+  <header>
+    <h1>Min nettside</h1>
+  </header>
+
+  <!-- Her lager vi en navigasjonsfane. Denne inneholder linker til alle sidene våre-->
+  <div class="topnav">
+    <a href="/">Hjem</a>
+    <a href="/side2">Side 2</a>
+    <a href="#">Side 3</a>
+    <a href="https://www.plan-norge.no">Plan Norge</a>
+  </div>
+
+  <!--Her har vi en overskrift av typen <h2>.-->
+  <h2>Innhold</h2>
+
+  <!--Vi legger inn litt tekst i et avsnitt-->
+  <p>
+    Dette er et avsnitt. Her kan man skrive tekst. Ønsker man et nytt avsnitt så kan man lage en ny "bulk" lik
+    denne.
+    Avsnitt er en fin måte å stykke opp tekst. I HTML kan man skifte linje
+    i koden, uten at dette vises i nettsiden. For linjeskift må vi fortelle nettsiden dette ved å bruke <br> Da vet
+    nettleseren at vi ønsker ny linje.
+
+    <!--Vi lager en liste til nettsiden vår. Vi kan legge til punkter i listen med "<li>"-->
+    <ul>
+      <li>Dette er første punkt i listen min</li>
+      <li>Dette er andre punkt i listen min</li>
+    </ul>
+  </p>
+
+  <!--Vi lager et nytt avsnitt-->
+  <p>
+    <!--Vi lager linker til vår egen og andre nettsider -->
+    Vi kan også legge inn linker til andre nettsider. Her er en <a href="https://www.plan-norge.no">Link til
+      Plan-Norge</a><br>
+
+    <!--Når vi linker til andre sider på egen server trenger vi bare å skrive /dinside -->
+    Og her er en <a href="/side2">Link til Side 2</a>
+
+  </p>
+
+  <!-- Dette er et bilde. Vi kan legge inn bilder vi har på serveren (datamaskinen), eller bilder som finnes på internett. 
+    For bilder fra internett trenger vi linken til bildet. Denne finner man ved å høyreklikke på et bilde og velge: "kopier bildeadresse"
+  -->
+  <img
+    src="https://www.plan-norge.no/sites/default/files/styles/1000xvariable/public/Bli%20Plan-fadder/Fadderbarn_fra_Togo_skriver_brev_1000px.jpg">
+</body>
+
+</html>
