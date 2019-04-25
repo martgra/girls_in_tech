@@ -6,20 +6,22 @@
 2. Åpne rotkatalogen "girls_in_tech"
 3. Kjør følgende kommando for å lage virtuelt miljø: 
 
-'''cmd
+```cmd
 python -m venv venv
-'''
+```
 4. Aktiver virtuelt miljø
-'''cmd 
+
+```cmd 
 venv/Scripts/activate
-'''
+```
+
 5. Installer flask
-'''cmd
+```cmd
 pip install flask
-'''
+```
 6. Kjør applikasjonen
-'''cmd
+```cmd
 python app.py
-'''
+```
 7. Kontroller at du får tilgang på 127.0.0.1:5000
 8. Cache må slettes hver gang endringer i nettsiden gjøres - anbefaler Firefox og CTRL+Shift+del
