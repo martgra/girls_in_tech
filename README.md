@@ -2,6 +2,15 @@
 
 ## Kom i gang
 
+0. Sørg for å ha følgende installert:
+* python 3.6 eller 3.7 installert: https://www.python.org/downloads/
+* Visual Studio Code: https://code.visualstudio.com/ med extensions
+  * Beautify
+  * HTML Snippets
+  * HTML CSS Support
+  * Python
+  * Python-autopep8
+  
 1. Klone repository lokalt
 2. Åpne rotkatalogen "girls_in_tech"
 3. Kjør følgende kommando for å lage virtuelt miljø: 
