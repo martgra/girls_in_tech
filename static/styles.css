@@ -29,10 +29,11 @@ header {
 footer {
   background-color: green;
   text-align: center;
-  padding: 20px;
   display: block;
   width: 100%;
   color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -106,4 +107,24 @@ li {
 li:hover {
   background-color: gray;
   color: black;
+}
+
+button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: darkgreen;
+  /* Green */
+  color: white;
 }
