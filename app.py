@@ -11,6 +11,7 @@ def home():
 def side2():
     return render_template("side2.html")
 
+
 # Forsøk å legge til en egen side. Her kan du kopiere koden rett over.
 # Husk at du må velge en ny adresse inne i @app.route('')
 # Husk også at "funksjonen" må få et nytt navn slik som def side3():

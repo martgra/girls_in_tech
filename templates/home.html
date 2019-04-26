@@ -2,8 +2,7 @@
     hvordan de ulike "elementene" i nettsiden vår skal settes sammen. 
     
     Alt innhold i et html-dokument må være inne i "tagger" Det er disse som
-    forteller nettlesern hva slags element vi ser på. En tag har alltid en begynnelse <> og en slutt </> 
--->
+    forteller nettlesern hva slags element vi ser på. En tag har alltid en begynnelse <> og en slutt </>-->
 
 <!doctype html>
 
@@ -13,11 +12,6 @@
 </head>
 
 <html>
-
-
-
-<!-- I "kroppen" til nettsiden kan vi plassere ulikt innhold. I denne enkle nettsiden har vi plassert et overskrift, en navigasjonsfane,
-   litt tekst, en liste og et bilde -->
 
 <body>
 
@@ -34,34 +28,39 @@
     <a href="https://www.plan-norge.no">Plan Norge</a>
   </div>
 
-  <!--Her har vi en overskrift av typen <h2>.-->
-  <h2>Innhold</h2>
+  <div class="div">
+    <!--Her har vi en overskrift av typen <h2>.-->
+    <h2>Innhold</h2>
 
-  <!--Vi legger inn litt tekst i et avsnitt-->
-  <p>
-    Dette er et avsnitt. Her kan man skrive tekst. Ønsker man et nytt avsnitt så kan man lage en ny "bulk" lik
-    denne.
-    Avsnitt er en fin måte å stykke opp tekst. I HTML kan man skifte linje
-    i koden, uten at dette vises i nettsiden. For linjeskift må vi fortelle nettsiden dette ved å bruke <br> Da vet
-    nettleseren at vi ønsker ny linje.
+    <!--Vi legger inn litt tekst i et avsnitt-->
+    <p>
+      Dette er et avsnitt. Her kan man skrive tekst. Ønsker man et nytt avsnitt så kan man lage en ny "bulk" lik
+      denne.
+      Avsnitt er en fin måte å stykke opp tekst. I HTML kan man skifte linje
+      i koden, uten at dette vises i nettsiden. For linjeskift må vi fortelle nettsiden dette ved å bruke <br> Da vet
+      nettleseren at vi ønsker ny linje.
+    </p>
 
     <!--Vi lager en liste til nettsiden vår. Vi kan legge til punkter i listen med "<li>"-->
+    <h3>Min liste</h3>
+
     <ul>
       <li>Dette er første punkt i listen min</li>
       <li>Dette er andre punkt i listen min</li>
     </ul>
-  </p>
 
-  <!--Vi lager et nytt avsnitt-->
-  <p>
-    <!--Vi lager linker til vår egen og andre nettsider -->
-    Vi kan også legge inn linker til andre nettsider. Her er en <a href="https://www.plan-norge.no">Link til
-      Plan-Norge</a><br>
 
-    <!--Når vi linker til andre sider på egen server trenger vi bare å skrive /dinside -->
-    Og her er en <a href="/side2">Link til Side 2</a>
+    <!--Vi lager et nytt avsnitt-->
+    <p>
+      <!--Vi lager linker til vår egen og andre nettsider -->
+      Vi kan også legge inn linker til andre nettsider. Her er en <a href="https://www.plan-norge.no">Link til
+        Plan-Norge</a><br>
 
-  </p>
+      <!--Når vi linker til andre sider på egen server trenger vi bare å skrive /dinside -->
+      Og her er en <a href="/side2">Link til Side 2</a>
+
+    </p>
+  </div>
 
   <!-- Dette er et bilde. Vi kan legge inn bilder vi har på serveren (datamaskinen), eller bilder som finnes på internett. 
     For bilder fra internett trenger vi linken til bildet. Denne finner man ved å høyreklikke på et bilde og velge: "kopier bildeadresse"
@@ -70,8 +69,11 @@
     <img
       src="https://www.plan-norge.no/sites/default/files/styles/1000xvariable/public/Bli%20Plan-fadder/Fadderbarn_fra_Togo_skriver_brev_1000px.jpg"
       id="imgClickAndChange">
+  </div>
+  <div>
     <button onclick="changeImage()">Skift bilde</button>
   </div>
+
 
   <footer>
     Laget av Girls in Tech
