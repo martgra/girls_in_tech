@@ -7,6 +7,7 @@
 <!doctype html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>En enkel nettside</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
@@ -65,7 +66,7 @@
   <!-- Dette er et bilde. Vi kan legge inn bilder vi har på serveren (datamaskinen), eller bilder som finnes på internett. 
     For bilder fra internett trenger vi linken til bildet. Denne finner man ved å høyreklikke på et bilde og velge: "kopier bildeadresse"
   -->
-  <div style="text-align: center">
+  <div class="imagecontainer" style="text-align: center">
     <img
       src="https://www.plan-norge.no/sites/default/files/styles/1000xvariable/public/Bli%20Plan-fadder/Fadderbarn_fra_Togo_skriver_brev_1000px.jpg"
       id="imgClickAndChange">
