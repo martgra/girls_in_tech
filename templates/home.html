@@ -9,7 +9,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>En enkel nettside</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link rel="stylesheet" href="/static/styles.css">
 </head>
 
 <html>
@@ -67,14 +67,11 @@
     For bilder fra internett trenger vi linken til bildet. Denne finner man ved å høyreklikke på et bilde og velge: "kopier bildeadresse"
   -->
   <div class="imagecontainer" style="text-align: center">
-    <img
-      src="https://www.plan-norge.no/sites/default/files/styles/1000xvariable/public/Bli%20Plan-fadder/Fadderbarn_fra_Togo_skriver_brev_1000px.jpg"
-      id="imgClickAndChange">
+    <img src="/static/img01.jpg" id="imgClickAndChange">
   </div>
   <div>
     <button onclick="changeImage()">Skift bilde</button>
   </div>
-
 
   <footer>
     Laget av Girls in Tech
