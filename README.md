@@ -13,7 +13,7 @@
   * Python
   * Python-autopep8
   
-####1. Klone koden til nettsiden til lokal datamaskin
+#### 1. Klone koden til nettsiden til lokal datamaskin
 For Windows:
 * Søk etter cmd og skriv
 ```cmd
@@ -30,7 +30,7 @@ git clone https://github.com/martgra/girls_in_tech.git ~/Documents/girls_in_tech
   * Trykk "Enter"
   * Det har nå blitt opprettet en ny mappe i "Documents" som heter girls_in_tech der alle filene man trenger finnes.
 
-2. Åpne koden in VSCode og starte "server"
+#### 2. Åpne koden in VSCode og starte "server"
   * Velg "File-->Open Folder --> girls_in_tech" (den mappen som ble laget i forrige trinn)
 
 For Windows
@@ -69,5 +69,5 @@ pip install flask
 python app.py
 ```
 
-7. Kontroller at du får tilgang på 127.0.0.1:5000
-8. Cache må slettes hver gang endringer i nettsiden gjøres. Dette gjøres ved CTRL+F5
+* Kontroller at du får tilgang på 127.0.0.1:5000
+* Cache må slettes hver gang endringer i nettsiden gjøres. Dette gjøres ved CTRL+F5
