@@ -13,7 +13,7 @@
   * Python
   * Python-autopep8
   
-1. Klone koden til nettsiden til lokal datamaskin
+####1. Klone koden til nettsiden til lokal datamaskin
 For Windows:
 * Søk etter cmd og skriv
 ```cmd
