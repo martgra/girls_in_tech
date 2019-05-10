@@ -46,6 +46,7 @@ python -m venv venv
 ```cmd 
 venv/Scripts/activate
 ```
+```bash 
 pip install flask
 ```
 ```cmd
@@ -61,6 +62,7 @@ python -m venv venv
 ```bash 
 source venv/bin/activate
 ```
+```bash 
 pip install flask
 ```
 ```bash
